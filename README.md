@@ -56,6 +56,7 @@ This section is to provide insight into the data access patterns to help decide 
 **Questions**
 
  - How will client systems access the data?  JDBC? ODBC? API?
+ - Who are the clients that execute the queries?  Systems (code) or humans?
  - What types of queries will be run on the data?
    - Preknown (canned) queries?
    - Exploratory (ahdoc) queries?
@@ -96,7 +97,6 @@ This section is to provide insight into the data access patterns to help decide 
  - Can hot/cold data be accessed differently?  E.g. 
     - hot in rdbms for lower latency retrieval
     - cold in object storage
-
 
 # Project requirements
 
