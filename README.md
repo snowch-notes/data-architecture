@@ -68,17 +68,37 @@ This section is to provide insight into the data access patterns to help decide 
  - What are the consistency requirements? https://www.microsoft.com/en-us/research/publication/replicated-data-consistency-explained-through-baseball/
  - What are the transaction isolation requirements? https://en.wikipedia.org/wiki/Isolation_(database_systems)
  - Do you have a specific data model that you require or is this flexible?
- 
+   - Can we denormalise data at write time to reduce reads at query time? 
+
+## Resilience
+
+ - What are the availability requirements?  E.g. HA with DC, HA across DC
+    - for the solution?
+    - for individual parts of the solution?
 
 ## Security
 
+ - What are your backup requirements?
+    - Recovery point objective (RPO)? https://en.wikipedia.org/wiki/Recovery_point_objective
+    - Recovery time objective (RTO)? https://en.wikipedia.org/wiki/Recovery_time_objective
+ - What are the confidentiality requirements (e.g. encryption)?
+ - What are the network security requirments (e.g. VPC/VPN)?
+ - Are there any access log/auditing requirements?
 
 ## Archival
 
+ - When is data considered hot/cold?
+ - Are the non-functional requirements different for hot/cold data?
+ - Can hot/cold data be accessed differently?  E.g. 
+    - hot in rdbms for lower latency retrieval
+    - cold in object storage
 
 
 # Project requirements
 
  - What are the goals of the project? POC? Pilot? Production?
  - What are the timelines?
- - Who
+ - Who are the team members and what are their responsibilities?
+ - Do you have technology preferences?  E.g.
+    - hadoop vs rdbms
+    - open source vs proprietary
