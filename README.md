@@ -8,6 +8,12 @@
 
 ## Ingest
 
+**Introduction**
+
+This section is to provide insight into the data ingest patterns to design the data ingest process.
+
+**Questions**
+
  - How will the data arrive?
    - As a continuous *stream* of data?
       - What is the peak rate of ingest in Gb/s? Now, 1YR, 3YRs, 5YRs? 
@@ -29,15 +35,40 @@
  - Can you provide some context for this source of data?  E.g. 
     - Where is the data coming from?
     - How is it generated?
- - Who (system) is/will be the master of the data?
+ - Who is/will be the master of the data? E.g.
+    - Is it a source relational database that we are performing change data capture from?
+    - Is *this* system that we are building going to be the master?
+ - How is the data model expected to change over time?  I.e. do we need to use a format that is resistent to schema changes (such as avro)? 
+ - Who will build and maintain the data ingest process?
+   - What are their core skills?
+   - Will they be trained to provide necessary skills?
 
 ## Retrieval
 
+**Introduction**
+
+This section is to provide insight into the data access patterns to help decide what persistence technologies are appropriate along with data models and data formats.
+
+**Questions**
+
  - How will client systems access the data?  JDBC? ODBC? API?
  - What types of queries will be run on the data?
- 
+   - Preknown (canned) queries?
+   - Exploratory (ahdoc) queries?
+     - Slice and dice (data warehouse/mart style queries)?
+     - Free text search?
+ - Are the queries OLAP or OLTP?
+ - What frequency will the queries be run?
+ - What are the expectations around retrieval rate?
+   - Number of records/second?
+   - Mb/s?
+ - What are the latency requirements?  I.e. how quickly do you expect to see your query data returned?
  - Can data be separated into hot data (newer) and cold data (older)?
-   - Do the retrieval requirements change?
+   - Do the retrieval requirements change depending on the hotness? Can we take longer to query cold data?
+ - What are the consistency requirements? https://www.microsoft.com/en-us/research/publication/replicated-data-consistency-explained-through-baseball/
+ - What are the transaction isolation requirements? https://en.wikipedia.org/wiki/Isolation_(database_systems)
+ - Do you have a specific data model that you require or is this flexible?
+ 
 
 ## Security
 
@@ -48,3 +79,6 @@
 
 # Project requirements
 
+ - What are the goals of the project? POC? Pilot? Production?
+ - What are the timelines?
+ - Who
