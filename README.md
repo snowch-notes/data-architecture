@@ -4,7 +4,11 @@
 
 # Introduction
 
+This is a living document of typical questions for data intensive architectures.
+
 # Data Requirements
+
+This section lists the questions relating to the solution.
 
 ## Ingest
 
@@ -95,6 +99,8 @@ This section is to provide insight into the data access patterns to help decide 
 
 
 # Project requirements
+
+This section lists the questions relating to the project.
 
  - What are the goals of the project? POC? Pilot? Production?
  - What are the timelines?
