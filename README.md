@@ -10,7 +10,7 @@ Data intensive analytic architectures are typically 'fed' with data from other s
 
  - ingest > persist > retrieval (query)
  
-Analytic solution architects are typically not the masters of the data they hold.  If data has incorrect values, it is usually updated in the upstream source system and these updates then filter through to the analytics solution.
+Analytic solution architectures are typically not the masters of the data they hold.  If data has incorrect values, it is usually updated in the upstream source system and these updates then filter through to the analytics solution.
 
 
 # Data Requirements
