@@ -89,11 +89,13 @@ This section is to provide insight into the data access patterns to help decide 
 ## Security
 
  - What are your backup requirements?
-    - Recovery point objective (RPO)? https://en.wikipedia.org/wiki/Recovery_point_objective
-    - Recovery time objective (RTO)? https://en.wikipedia.org/wiki/Recovery_time_objective
+    - Recovery point objective (RPO)? [wikipedia](https://en.wikipedia.org/wiki/Recovery_point_objective)
+    - Recovery time objective (RTO)? [wikipedia](https://en.wikipedia.org/wiki/Recovery_time_objective)
  - What are the confidentiality requirements (e.g. encryption)?
  - What are the network security requirments (e.g. VPC/VPN)?
  - Are there any access log/auditing requirements?
+ - How do you want to control access to the data? E.g.
+   - Role-based access control (RBAC) [wikipedia](https://en.m.wikipedia.org/wiki/Role-based_access_control)
 
 ## Archival
 
