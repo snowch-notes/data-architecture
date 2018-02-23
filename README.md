@@ -89,8 +89,8 @@ This section is to provide insight into the data access patterns to help decide 
  - What are the latency requirements?  I.e. how quickly do you expect to see your query data returned?
  - Can data be separated into hot data (newer) and cold data (older)?
    - Do the retrieval requirements change depending on the hotness? Can we take longer to query cold data?
- - What are the consistency requirements? https://www.microsoft.com/en-us/research/publication/replicated-data-consistency-explained-through-baseball/
- - What are the transaction isolation requirements? https://en.wikipedia.org/wiki/Isolation_(database_systems)
+ - What are the consistency requirements? [research paper](https://www.microsoft.com/en-us/research/publication/replicated-data-consistency-explained-through-baseball/)
+ - What are the transaction isolation requirements? [Wikipedia](https://en.wikipedia.org/wiki/Isolation_(database_systems))
  - Do you have a specific data model that you require or is this flexible?
    - Can we denormalise data at write time to reduce reads at query time? 
 
