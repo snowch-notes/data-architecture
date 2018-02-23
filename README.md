@@ -4,7 +4,14 @@
 
 # Introduction
 
-This is a living document of typical [non-functional requirement](https://en.m.wikipedia.org/wiki/Non-functional_requirement) (NFR) questions for data intensive architectures.
+This is a living document of typical [non-functional requirement](https://en.m.wikipedia.org/wiki/Non-functional_requirement) (NFR) questions for data intensive analytic architectures.
+
+Data intensive analytic architectures are typically 'fed' with data from other systems such as OLTP systems.  The main data flow patterns for these architectures are:
+
+ - ingest > persist > retrieval (query)
+ 
+Analytic solution architects are typically not the masters of the data they hold.  If data has incorrect values, it is usually updated in the upstream source system and these updates then filter through to the analytics solution.
+
 
 # Data Requirements
 
@@ -47,7 +54,10 @@ This section is to provide insight into the data ingest patterns to design the d
       - Specialised off the shelf change data capture tools such as [InfoSphere CDC](https://www.ibm.com/support/knowledgecenter/en/SSX3HK_6.5.2/com.ibm.cdcdoc.mcadminguide.doc/concepts/overview_of_cdc.html)
       - Manually select changes based on timestamp or row versioning in RDBMS? [Wikipedia](https://en.m.wikipedia.org/wiki/Change_data_capture)
       - Monitor filesystem folder for new files
- - How is the data model expected to change over time?  I.e. do we need to use a format that is resistent to schema changes (such as avro)? 
+ - How is the data model expected to change over time?  I.e. do we need to use a format that is resistent to schema changes (such as avro)?
+ - How can you verify that you have not ingested dirty (incorrect) data?
+ - How can you verify that you have ingested all the required data?  E.g. 
+   - Weekly row counts of records ingested cross-related to number of inserts/updates in source system
  - Who will build and maintain the data ingest process?
    - What are their core skills?
    - Will they be trained to provide necessary skills?
@@ -65,6 +75,7 @@ This section is to provide insight into the data access patterns to help decide 
  - What is the business purpose for the queries and what are the key requirements? E.g.
    - Financial reconcilliation report requiring high accuracy
    - A page hit counter that only needs to be approximate
+   - Build/update machine learning model
  - What types of queries will be run on the data?
    - Preknown (canned) queries?
    - Exploratory (ahdoc) queries?
@@ -99,6 +110,14 @@ This section is to provide insight into the data access patterns to help decide 
  - Are there any access log/auditing requirements?
  - How do you want to control access to the data? E.g.
    - Role-based access control (RBAC) [wikipedia](https://en.m.wikipedia.org/wiki/Role-based_access_control)
+   - What is the granularity of access permissions? E.g. Table, row, cell?
+   
+## Compliance
+
+ - Will the system hold data that has compliance requirements, such as GDPR?
+   - What are the requirements and how do you want to comply?  E.g.
+     - Requirement: Right to be forgotten
+     - Approach: Anonymise individual's PI data records
 
 ## Archival
 
