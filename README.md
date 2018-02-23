@@ -43,6 +43,10 @@ This section is to provide insight into the data ingest patterns to design the d
  - Who is/will be the master of the data? E.g.
     - Is it a source relational database that we are performing change data capture from?
     - Is *this* system that we are building going to be the master?
+    - How can we detect incremental changes in the source system? E.g.
+      - Specialised off the shelf change data capture tools such as [InfoSphere CDC](https://www.ibm.com/support/knowledgecenter/en/SSX3HK_6.5.2/com.ibm.cdcdoc.mcadminguide.doc/concepts/overview_of_cdc.html)
+      - Manually select changes based on timestamp or row versioning in RDBMS? [Wikipedia](https://en.m.wikipedia.org/wiki/Change_data_capture)
+      - Monitor filesystem folder for new files
  - How is the data model expected to change over time?  I.e. do we need to use a format that is resistent to schema changes (such as avro)? 
  - Who will build and maintain the data ingest process?
    - What are their core skills?
