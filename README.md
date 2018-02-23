@@ -33,7 +33,8 @@ This section is to provide insight into the data ingest patterns to design the d
     - Do we need to back-load data prior to this (e.g. by batch load)?
       - How much data needs to be back-loaded in Gb?
       - How much data needs to be back-loaded in records?
- - After receiving the data how quickly should clients be able to see the data in queries (latency)? 
+ - After receiving the data how quickly should clients be able to see the data in queries (latency)?
+ - What is the data format?  E.g. avro, json, csv, parquet, xls
  - Can you share a sample of data?
  - Can you share a schema for the data and files?
  - Can you provide some context for this source of data?  E.g. 
