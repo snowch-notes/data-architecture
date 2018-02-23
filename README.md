@@ -62,6 +62,9 @@ This section is to provide insight into the data access patterns to help decide 
 
  - How will client systems access the data?  JDBC? ODBC? API?
  - Who are the clients that execute the queries?  Systems (code) or humans?
+ - What is the business purpose for the queries and what are the key requirements? E.g.
+   - Financial reconcilliation report requiring high accuracy
+   - A page hit counter that only needs to be approximate
  - What types of queries will be run on the data?
    - Preknown (canned) queries?
    - Exploratory (ahdoc) queries?
