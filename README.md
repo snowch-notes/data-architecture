@@ -4,7 +4,7 @@
 
 # Introduction
 
-This is a living document of typical questions for data intensive architectures.
+This is a living document of typical [non-functional requirement](https://en.m.wikipedia.org/wiki/Non-functional_requirement) (NFR) questions for data intensive architectures.
 
 # Data Requirements
 
