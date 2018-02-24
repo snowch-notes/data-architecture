@@ -126,6 +126,10 @@ This section is to provide insight into the data access patterns to help decide 
  - Can hot/cold data be accessed differently?  E.g. 
     - hot in rdbms for lower latency retrieval
     - cold in object storage
+    
+## Extensibility
+
+ - What environments do you typically have?  E.g. dev, test, stage, prod
 
 # Project requirements
 
