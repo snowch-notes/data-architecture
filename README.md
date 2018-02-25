@@ -75,6 +75,8 @@ This section is to provide insight into the data ingest patterns to design the d
        - Do you have a preferences on libraries/frameworks to use?
  - What is the business purpose of the model?
  - How is the business success of the model measured?  E.g. profit generated
+ - Is the problem domain perceptual and requiring deep learning? E.g. working with audio, image, video
+ - What is the type of problem?  E.g. regression, classification, collaborative filtering, ...
     
 ## Retrieval
 
