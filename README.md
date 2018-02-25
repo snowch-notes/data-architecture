@@ -137,6 +137,10 @@ This section lists the questions relating to the project.
 
  - What are the goals of the project? POC? Pilot? Production?
  - What are the timelines?
+ - What is the budget for the project?
+    - development budget?
+    - running (production) budget?
+    - maintenance (e.g. bug fix) budget?
  - Who are the team members and what are their responsibilities?
  - Do you have technology preferences?  E.g.
     - hadoop vs rdbms
