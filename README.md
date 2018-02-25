@@ -141,3 +141,8 @@ This section lists the questions relating to the project.
  - Do you have technology preferences?  E.g.
     - hadoop vs rdbms
     - open source vs proprietary
+ - How does the new system/functionality add to your competitive advantage and allow you to differentiate?
+ - Are you going to develop in-house or outsource?
+   - If outsourcing and the project is a differentiator and you outsource:
+      - how are you going to bring the skills/knowledge back inside?
+      - How are you going to grow these skills/knowledge?  I.e. how are you going to grow your ability to differentiate and hence your competitive advantage?
