@@ -70,7 +70,7 @@ This section is to provide insight into the data ingest patterns to design the d
     - How was the model created?
        - Libraries?  Versions?
  - Do you want to build a model in this project?
-    -
+    
  
 ## Retrieval
 
