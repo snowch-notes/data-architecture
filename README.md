@@ -66,12 +66,16 @@ This section is to provide insight into the data ingest patterns to design the d
 
 ## Predict
 
- - Do you have an existing machine learning model?
-    - How was the model created?
-       - Libraries?  Versions?
- - Do you want to build a model in this project?
+ - Do you have an existing machine learning model, or will a new one be created?
+    - Existing model?
+       - How was the model created?
+          - Libraries/frameworks?  
+          - Versions?
+    - Create a new one?
+       - Do you have a preferences on libraries/frameworks to use?
+ - What is the business purpose of the model?
+ - How is the business success of the model measured?  E.g. profit generated
     
- 
 ## Retrieval
 
 **Introduction**
