@@ -10,7 +10,7 @@ This is a living document of typical [non-functional requirement](https://en.m.w
 
 Data intensive analytic architectures are typically 'fed' with data from other systems such as OLTP systems.  The main data flow patterns for these architectures are:
 
- - ingest > persist > retrieval (query)
+TODO diagram
  
 Analytic solution architectures are typically not the masters of the data they hold.  If data has incorrect values, it is usually updated in the upstream source system and these updates then trickle through to the analytics solution.
 
@@ -64,6 +64,14 @@ This section is to provide insight into the data ingest patterns to design the d
    - What are their core skills?
    - Will they be trained to provide necessary skills?
 
+## Predict
+
+ - Do you have an existing machine learning model?
+    - How was the model created?
+       - Libraries?  Versions?
+ - Do you want to build a model in this project?
+    -
+ 
 ## Retrieval
 
 **Introduction**
