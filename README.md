@@ -77,6 +77,8 @@ This section is to provide insight into the data ingest patterns to design the d
  - How is the business success of the model measured?  E.g. profit generated
  - Is the problem domain perceptual and requiring deep learning? E.g. working with audio, image, video
  - What is the type of problem?  E.g. regression, classification, collaborative filtering, ...
+ - Is the prediction task batch or near real-time? 
+ - Now ask the ingest questions for each batch/stream of data for prediction.
     
 ## Retrieval
 
