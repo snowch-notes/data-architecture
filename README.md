@@ -156,6 +156,7 @@ This section lists the questions relating to the project.
     - running (production) budget?
     - maintenance (e.g. bug fix) budget?
  - Who are the team members and what are their responsibilities?
+ - Who will maintain the solution in production?
  - Do you have technology preferences?  E.g.
     - hadoop vs rdbms
     - open source vs proprietary
