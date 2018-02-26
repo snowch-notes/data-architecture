@@ -75,7 +75,7 @@ This section is to provide insight into the data ingest patterns to design the d
        - How was the model created?
           - Libraries/frameworks?  
           - Versions?
-          - How big is the model?
+          - How big is the model, how much memory space does it take?
     - Create a new one?
        - Do you have a preferences on libraries/frameworks to use?
  - How frequently will the model be refreshed?
