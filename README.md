@@ -30,7 +30,8 @@ This section is to provide insight into the data ingest patterns to design the d
  - How will the data arrive?
    - As a continuous *stream* of data?
       - What is the peak rate of ingest in Gb/s? Now, 1YR, 3YRs, 5YRs? 
-      - What is the peak rate of ingest in records/second? Now, 1YR, 3YRs, 5YRs? 
+      - What is the peak rate of ingest in records/second? Now, 1YR, 3YRs, 5YRs?
+      - What does the load curve look like?  E.g. is it fairly flat and consistent, or does it vary a lot?
       - What are the required delivery guarantees (exactly once, at most once, at least once)?  Hint: do downstream queries on landed data need to be 100% accurate?
    - As periodic *batches* of data?
       - What frequency?
