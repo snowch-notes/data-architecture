@@ -66,7 +66,7 @@ This section is to provide insight into the data ingest patterns to design the d
    - Will they be trained to provide necessary skills?
  - What is your development lifecycle, or are you flexible? e.g. [pause and resume with savepoints](https://ci.apache.org/projects/flink/flink-docs-release-1.4/setup/savepoints.html#overview)
  - Who will monitor the streams? 
- - What do they want to monitor?  [example](https://ci.apache.org/projects/flink/flink-docs-release-1.4/monitoring/checkpoint_monitoring.html)
+ - What do they want to monitor?  [Flink example](https://ci.apache.org/projects/flink/flink-docs-release-1.4/monitoring/checkpoint_monitoring.html), [IBM Streaming Analytics](https://www.ibm.com/blogs/bluemix/2016/07/streaming-analytics-metrics-using-rest-api/)
 
 ## Predict
 
