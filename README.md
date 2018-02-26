@@ -75,8 +75,11 @@ This section is to provide insight into the data ingest patterns to design the d
        - How was the model created?
           - Libraries/frameworks?  
           - Versions?
+          - How big is the model?
     - Create a new one?
        - Do you have a preferences on libraries/frameworks to use?
+ - How frequently will the model be refreshed?
+ - How will it be refreshed? manually? automatically?
  - What is the business purpose of the model?
  - How is the business success of the model measured?  E.g. profit generated
  - Is the problem domain perceptual and requiring deep learning? E.g. working with audio, image, video
