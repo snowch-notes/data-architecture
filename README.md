@@ -126,6 +126,11 @@ This section is to provide insight into the data access patterns to help decide 
  - What are the availability requirements?  E.g. HA with DC, HA across DC
     - for the solution?
     - for individual parts of the solution?
+ 
+## Locality
+
+ - Must the data remain inside a country's boundary?
+ - Are there requiremebts for internationalisation of user interface labels?
 
 ## Security
 
