@@ -44,9 +44,11 @@ This section is to provide insight into the data ingest patterns to design the d
       - How much data needs to be back-loaded in Gb?
       - How much data needs to be back-loaded in records?
  - After receiving the data how quickly should clients be able to see the data in queries (latency)?
+ - Is the data structured or unstructued?
  - What is the data format/encoding?  E.g. avro, json, csv, parquet, xls
- - Can you share a sample of data?
- - Can you share a schema for the data and files?
+ - If structured, can you share a sample of data?
+ - If structured, can you share a schema for the data?
+ - If file based, can you share a speciication and files?
  - Can you provide some context for this source of data?  E.g. 
     - Where is the data coming from?
     - How is it generated?
