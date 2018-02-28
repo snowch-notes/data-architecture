@@ -39,7 +39,7 @@ This section lists the questions relating to the project.
         - replace a legacy system
         - reduce costs
       - What is the current architecture of the existing solution?
-      - How are the stakeholders?
+      - Who are the stakeholders?
         - What are their roles?
         - What are their responsibilities?
       - What are the strengths of the existing solution?
