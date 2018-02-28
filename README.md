@@ -51,6 +51,8 @@ This section lists the questions relating to the project.
    - Verifing a potential solution, e.g. pilot
    - Implementing a solution? e.g. production solution
      - Who will maintain the solution in production?
+ - Are there any secondary goals for the project?  e.g.
+   - Upskilling employees?
 
 ## Timelines/Budget
  
@@ -64,6 +66,8 @@ This section lists the questions relating to the project.
  - What are the post-project budgets? e.g. 
     - production running costs?
     - maintenance costs?  e.g. bug fix
+ - Is the budget approved, or does it need to go through an approval process?
+    - What is the approval process?
  
 ## Stakeholders    
     
@@ -82,6 +86,9 @@ This section lists the questions relating to the project.
       - how are you going to bring the skills/knowledge back inside?
       - How are you going to grow these differentiating skills/knowledge?
 
+## Risks/Issues
+
+ - What are the core project risks and issues?
 
 # System Requirements
 
