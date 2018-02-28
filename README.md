@@ -18,24 +18,63 @@ Analytic solution architectures are typically not the masters of the data they h
 
 This section lists the questions relating to the project.
 
- - What are the goals of the project? POC? Pilot? Production?
- - What are the timelines?
- - What is the budget for the project?
-    - development budget?
-    - running (production) budget?
-    - maintenance (e.g. bug fix) budget?
- - Who are the team members and what are their responsibilities?
- - Who will maintain the solution in production?
- - Do you have technology preferences?  E.g.
+## Goals/objectives
+
+ - What are the top level goals of the project?
+ - How does the project support the organisation's strategic drivers?
+ - Does the project provide a new source of competitive advantage and/or allow you to differentiate in some way?
+ - What are the business drivers? e.g.
+   - increased revenue?
+   - reduced costs?
+   - confirm to regulation or compliance mandates?
+ - How to the business drivers translate into project goals that can be measured?
+   - goal 1 ... measured by ...
+   - goal 2 ... measured by ...
+   - goal n ... measured by ...
+ - What is the type of project:
+    - Development of a new set of capabilities?
+    - Replace existing system? e.g. 
+      - automate a manual process
+      - replace a legacy system
+      - reduce costs
+ - What are the solution goals for the project? 
+   - Evaluating a potential solution? e.g. proof-of-concept
+   - Verifing a potential solution, e.g. pilot
+   - Implementing a solution? e.g. production solution
+     - Who will maintain the solution in production?
+
+## Timelines/Budget
+ 
+ - Is the project a single phase or multiple phases?
+   - single phase:
+     - What are the key milestones and their dates?
+   - multiple phases:
+     - What are the phases?
+     - What are the key milestones and dates of each phase?
+ - What is the overall budget and breakdown by phase?
+ - What are the post-project budgets? e.g. 
+    - production running costs?
+    - maintenance costs?  e.g. bug fix
+ 
+## Stakeholders    
+    
+ - Who are the key stakeholders/team members and what are their responsibilities for the project?
+ - Who is accountable for the project delivery?
+
+## Constraints
+
+ - Does the project have any constraints/preferences that it needs to adhere to?  e.g.
+   - enterprise architecture standards?
+ - Do you have technology preferences?  e.g.
     - hadoop vs rdbms
     - open source vs proprietary
- - How does the new system/functionality add to your competitive advantage and allow you to differentiate?
- - Are you going to develop in-house or outsource?
+ - In the project going to be developed in-house or outsourced?
    - If outsourcing and the project is a differentiator:
       - how are you going to bring the skills/knowledge back inside?
-      - How are you going to grow these skills/knowledge?  I.e. how are you going to grow your ability to differentiate and hence your competitive advantage?
+      - How are you going to grow these differentiating skills/knowledge?
 
-# Data Requirements
+
+# System Requirements
 
 This section lists the questions relating to the solution.
 
