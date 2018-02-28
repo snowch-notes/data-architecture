@@ -33,10 +33,18 @@ This section lists the questions relating to the project.
    - goal n ... measured by ...
  - What is the type of project:
     - Development of a new set of capabilities?
-    - Replace existing system? e.g. 
-      - automate a manual process
-      - replace a legacy system
-      - reduce costs
+    - Replace existing system? 
+      - Examples
+        - automate a manual process
+        - replace a legacy system
+        - reduce costs
+      - What is the current architecture of the existing solution?
+      - How are the stakeholders?
+        - What are their roles?
+        - What are their responsibilities?
+      - What are the strengths of the existing solution?
+      - What are the weaknesses of the existing solution?
+      - Can you provide a [System Context Diagram](https://en.wikipedia.org/wiki/System_context_diagram) for the existing solution?
  - What are the solution goals for the project? 
    - Evaluating a potential solution? e.g. proof-of-concept
    - Verifing a potential solution, e.g. pilot
