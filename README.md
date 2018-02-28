@@ -14,6 +14,26 @@ TODO diagram
  
 Analytic solution architectures are typically not the masters of the data they hold.  If data has incorrect values, it is usually updated in the upstream source system and these updates then trickle through to the analytics solution.
 
+# Project/commercial
+
+This section lists the questions relating to the project.
+
+ - What are the goals of the project? POC? Pilot? Production?
+ - What are the timelines?
+ - What is the budget for the project?
+    - development budget?
+    - running (production) budget?
+    - maintenance (e.g. bug fix) budget?
+ - Who are the team members and what are their responsibilities?
+ - Who will maintain the solution in production?
+ - Do you have technology preferences?  E.g.
+    - hadoop vs rdbms
+    - open source vs proprietary
+ - How does the new system/functionality add to your competitive advantage and allow you to differentiate?
+ - Are you going to develop in-house or outsource?
+   - If outsourcing and the project is a differentiator:
+      - how are you going to bring the skills/knowledge back inside?
+      - How are you going to grow these skills/knowledge?  I.e. how are you going to grow your ability to differentiate and hence your competitive advantage?
 
 # Data Requirements
 
@@ -159,27 +179,6 @@ This section is to provide insight into the data access patterns to help decide 
     - hot in rdbms for lower latency retrieval
     - cold in object storage
     
-## Extensibility
+## Maintainability
 
  - What environments do you typically have?  E.g. dev, test, stage, prod
-
-# Project/commercial
-
-This section lists the questions relating to the project.
-
- - What are the goals of the project? POC? Pilot? Production?
- - What are the timelines?
- - What is the budget for the project?
-    - development budget?
-    - running (production) budget?
-    - maintenance (e.g. bug fix) budget?
- - Who are the team members and what are their responsibilities?
- - Who will maintain the solution in production?
- - Do you have technology preferences?  E.g.
-    - hadoop vs rdbms
-    - open source vs proprietary
- - How does the new system/functionality add to your competitive advantage and allow you to differentiate?
- - Are you going to develop in-house or outsource?
-   - If outsourcing and the project is a differentiator:
-      - how are you going to bring the skills/knowledge back inside?
-      - How are you going to grow these skills/knowledge?  I.e. how are you going to grow your ability to differentiate and hence your competitive advantage?
