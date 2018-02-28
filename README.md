@@ -38,6 +38,7 @@ This section lists the questions relating to the project.
         - automate a manual process
         - replace a legacy system
         - reduce costs
+        - other (please describe)
       - What is the current architecture of the existing solution?
       - Who are the stakeholders?
         - What are their roles?
