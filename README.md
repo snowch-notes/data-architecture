@@ -53,6 +53,7 @@ This section lists the questions relating to the project.
      - Who will maintain the solution in production?
  - Are there any secondary goals for the project?  e.g.
    - Upskilling employees?
+ - One option is to do nothing and carry on as normal - what would be the implications of doing nothing?
 
 ## Timelines/Budget
  
