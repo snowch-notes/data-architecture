@@ -112,13 +112,17 @@ This section is to provide insight into the data ingest patterns to design the d
    - As periodic *batches* of data?
       - What frequency?
       - What is specification for the batch data?
+      - What are the file sizes?
+         - Row count?
+         - Size on disk?
+         - How are the sizes expected to grow/shrink over time?
  - Will the ingest grow or decrease in volumes over time?
  - How are records identified?
  - What is considered late data? E.g. a shop loses network connectivity for a day due to a fault - how do we handle the late point-of-sales transactions?
  - When does the data load start arriving?
     - Do we need to back-load data prior to this (e.g. by batch load)?
       - How much data needs to be back-loaded in Gb?
-      - How much data needs to be back-loaded in records?
+      - How much data needs to be back-loaded in record counts?
  - After receiving the data how quickly should clients be able to see the data in queries (latency)?
  - Is the data structured or unstructued?
  - What is the data format/encoding?  E.g. avro, json, csv, parquet, xls
