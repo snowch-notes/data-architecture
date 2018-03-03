@@ -168,7 +168,13 @@ This section is to provide insight into the data ingest patterns to design the d
  - What is the type of problem?  E.g. regression, classification, collaborative filtering, ...
  - Is the prediction task batch or near real-time? 
  - Now ask the ingest questions for each batch/stream of data for prediction.
-    
+
+## Analyse (realtime)
+
+ - Completeness: How important is it to have all of your data before you compute your result?
+ - Latency: How long do you want to wait for data? For example, do you wait until you think you have all data? Do you process data as it arrives?
+ - Cost: How much compute power/money are you willing to spend to lower the latency?
+
 ## Retrieval
 
 **Introduction**
