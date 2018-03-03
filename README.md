@@ -175,7 +175,7 @@ This section is to provide insight into the data ingest patterns to design the d
  - Latency: How long do you want to wait for data? For example, do you wait until you think you have all data? Do you process data as it arrives?
  - Cost: How much compute power/money are you willing to spend to lower the latency?
 
-## Retrieval
+## Retrieval (query)
 
 **Introduction**
 
