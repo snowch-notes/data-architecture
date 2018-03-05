@@ -225,6 +225,9 @@ This section is to provide insight into the data access patterns to help decide 
     - Recovery time objective (RTO)? [wikipedia](https://en.wikipedia.org/wiki/Recovery_time_objective)
  - What are the confidentiality requirements (e.g. encryption)?
  - What are the network security requirments (e.g. VPC/VPN)?
+ - What are the requirements for physical isolation of data at rest? e.g. multi-tenant solutions ok?
+ - What are the requirements for key management? e.g. shared vendor keys/dedicated vendor keys/customer provides own key
+ - What are the requirements for authentication?  e.g. enterprise ldap/sso integration
  - Are there any access log/auditing requirements?
  - How do you want to control access to the data? E.g.
    - Role-based access control (RBAC) [wikipedia](https://en.m.wikipedia.org/wiki/Role-based_access_control)
