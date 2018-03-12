@@ -79,7 +79,7 @@ This section lists the questions relating to the project.
 
  - Does the project have any constraints/preferences that it needs to adhere to?  e.g.
    - enterprise architecture standards?
- - Do you have technology preferences?  e.g.
+ - Do you have technology preferences/requirements?  e.g.
     - hadoop vs rdbms
     - open source vs proprietary
     - specific software packages, e.g. presto
