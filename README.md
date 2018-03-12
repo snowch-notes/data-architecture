@@ -82,6 +82,7 @@ This section lists the questions relating to the project.
  - Do you have technology preferences?  e.g.
     - hadoop vs rdbms
     - open source vs proprietary
+    - specific software packages, e.g. presto
  - In the project going to be developed in-house or outsourced?
    - If outsourcing and the project is a differentiator:
       - how are you going to bring the skills/knowledge back inside?
