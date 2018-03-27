@@ -99,7 +99,7 @@ This section lists the questions relating to the project.
 
 More questions coming soon...
 
- - Do you have hills, epics, user stories, or other functional requirements?
+ - Do you have hills, epics, user stories, or other functional requirements (use-cases, behavoir driven development specs)?
  - Do you have user interface visualisations/mock-ups?
 
 # System Requirements
