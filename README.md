@@ -269,4 +269,4 @@ This section is to provide insight into the data access patterns to help decide 
     
 ## Maintainability
 
- - What environments do you typically have?  E.g. dev, test, stage, prod
+ - What environments do you need?  E.g. dev, test, stage, prod
