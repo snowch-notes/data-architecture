@@ -72,9 +72,17 @@ This section lists the questions relating to the project.
  
 ## Stakeholders    
     
- - Who are the key stakeholders/team members and what are their responsibilities for the project?
- - Who is accountable for the project delivery?
-
+ - Who are the key [stakeholders/team members](https://www.viewpoints-and-perspectives.info/home/stakeholders/) and what are their responsibilities ...
+    - for the project:
+        - Who will pay for the project?
+        - Who will architect, develop, test the solution?
+        - Who will manage the project?
+        - Who is accountable for the project delivery?
+    - for the production solution:
+        - Who will use the system?
+        - Who will maintain the solution in production?
+        - Who pays for the solution maintenance/running costs?
+    
 ## Constraints
 
  - Does the project have any constraints/preferences that it needs to adhere to?  e.g.
