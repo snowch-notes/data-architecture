@@ -83,6 +83,9 @@ This section lists the questions relating to the project.
     - hadoop vs rdbms
     - open source vs proprietary
     - specific software packages, e.g. presto
+    - programming/data science tools (e.g. R, or Python)
+ - If the solution is to replace an existing solution ...
+    - do you have requirements for reuse code/assets, or is a ground up rewrite possible/desired (if that makes sense)?
  - In the project going to be developed in-house or outsourced?
    - If outsourcing and the project is a differentiator:
       - how are you going to bring the skills/knowledge back inside?
