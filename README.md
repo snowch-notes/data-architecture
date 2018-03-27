@@ -95,6 +95,13 @@ This section lists the questions relating to the project.
 
  - What are the core project risks and issues?
 
+# Functional Requirements
+
+More questions coming soon...
+
+ - Do you have hills, epics, user stories, or other functional requirements?
+ - Do you have user interface visualisations/mock-ups?
+
 # System Requirements
 
 This section lists the questions relating to the solution.
