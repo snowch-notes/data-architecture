@@ -114,6 +114,15 @@ More questions coming soon...
 
 This section lists the questions relating to the solution.
 
+## Type of System
+
+ - What is the main purpose of the system?
+   - Data Lake
+   - IoT Persistence
+   - A.I. Model build and deploy 
+   - Data Warehouse off-load
+   - ...
+
 ## Ingest
 
 **Introduction**
