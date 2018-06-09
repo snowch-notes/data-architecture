@@ -228,7 +228,7 @@ This section is to provide insight into the data access patterns to help decide 
    - Number of records/second?
    - Mb/s?
  - What are the latency requirements?  I.e. how quickly do you expect to see your query data returned?
- - What windows are available for maintenance at which time queries cannot be run?
+ - What windows are available for maintenance at which time queries cannot be run? (if any)
  - Can data be separated into hot data (newer) and cold data (older)?
    - Do the retrieval requirements change depending on the hotness? Can we take longer to query cold data?
  - What are the consistency requirements? [research paper](https://www.microsoft.com/en-us/research/publication/replicated-data-consistency-explained-through-baseball/)
