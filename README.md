@@ -222,6 +222,9 @@ This section is to provide insight into the data access patterns to help decide 
    - Exploratory (ahdoc) queries?
      - Slice and dice (data warehouse/mart style queries)?
      - Free text search?
+ - When will the queries be run?  E.g. 
+   - query 'abc' Monday to Friday between 9am and 5pm GMT
+   - query 'def' once a day between 02:00 to 04:00
  - Are the queries OLAP or OLTP?
  - What frequency will the queries be run?
  - What are the expectations around retrieval rate?
