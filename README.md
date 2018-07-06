@@ -224,7 +224,7 @@ This section is to provide insight into the data access patterns to help decide 
      - Free text search?
  - When will the queries be run?  E.g. 
    - query 'abc' Monday to Friday between 9am and 5pm GMT
-   - query 'def' once a day between 02:00 to 04:00
+   - query 'def' once a day between 02:00 to 04:00 BST
  - Are the queries OLAP or OLTP?
  - What frequency will the queries be run?
  - What are the expectations around retrieval rate?
