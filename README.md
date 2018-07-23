@@ -146,6 +146,7 @@ This section is to provide insight into the data ingest patterns to design the d
          - How are the sizes expected to grow/shrink over time?
  - Will the ingest grow or decrease in volumes over time?
  - How are records identified?
+   - How are the records distributed around the identifier?  Is there any skew?
  - What is considered late data? E.g. a shop loses network connectivity for a day due to a fault - how do we handle the late point-of-sales transactions?
  - When does the data load start arriving?
     - Do we need to back-load data prior to this (e.g. by batch load)?
