@@ -12,6 +12,18 @@ The purpose of this document is to understand:
  - the key components of the data strategy and how those elements relate to the business strategy
  - the importance/urgency of each component of the data stategy
 
+# Organisation Structure
+
+Try to keep the answers for this section on one page.
+
+ - How is the organisation structured?  This could be by business unit
+ - How many resources do you have in the following categories:
+   - Data Architects
+   - Data scientists
+   - Data Engineer
+   - Data Analysts
+ - Where do the resources sit in the organisation structure?
+
 # Data Strategy
 
  - Has a Data Strategy been created?
