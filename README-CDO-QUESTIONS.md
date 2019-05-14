@@ -25,7 +25,8 @@ The purpose of this document is to understand:
    
 # General 
 
- - Has an analysis or discovery of organisational pain points been performed?
+ - Has an analysis or discovery of data related organisational pain points been performed?
+   - Do you have examples of poor data management resulting in operational inefficiencies?
 
 # Governance
 
