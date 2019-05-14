@@ -9,7 +9,8 @@ This document is in the public domain under the license:
 The purpose of this document is to understand:
 
  - where an organisation sits on the Data Maturity chart
- - the key stategic data drivers for the organisation and how those drivers relate to the business strategy
+ - the key components of the data strategy and how those elements relate to the business strategy
+ - the importance/urgency of each component of the data stategy
 
 # Data Strategy
 
