@@ -27,7 +27,7 @@ This section lists the questions relating to the project.
    - increased revenue?
    - reduced costs?
    - confirm to regulation or compliance mandates?
- - How to the business drivers translate into project goals that can be measured?
+ - How do the business drivers translate into project goals that can be measured?
    - goal 1 ... measured by ...
    - goal 2 ... measured by ...
    - goal n ... measured by ...
@@ -94,7 +94,7 @@ This section lists the questions relating to the project.
     - programming/data science tools (e.g. R, or Python)
  - If the solution is to replace an existing solution ...
     - do you have requirements for reuse code/assets, or is a ground up rewrite possible/desired (if that makes sense)?
- - In the project going to be developed in-house or outsourced?
+ - Is the project going to be developed in-house or outsourced?
    - If outsourcing and the project is a differentiator:
       - how are you going to bring the skills/knowledge back inside?
       - How are you going to grow these differentiating skills/knowledge?
@@ -157,7 +157,7 @@ This section is to provide insight into the data ingest patterns to design the d
  - What is the data format/encoding?  E.g. avro, json, csv, parquet, xls
  - If structured, can you share a sample of data?
  - If structured, can you share a schema for the data?
- - If file based, can you share a speciication and files?
+ - If file based, can you share a specification and files?
  - Can you provide some context for this source of data?  E.g. 
     - Where is the data coming from?
     - How is it generated?
