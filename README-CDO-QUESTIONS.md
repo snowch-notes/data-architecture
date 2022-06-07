@@ -22,6 +22,7 @@ Try to keep the answers for this section on one page.
    - Data scientists
    - Data Engineer
    - Data Analysts
+   - Data steward
  - Where do the resources sit in the organisation structure?
 
 # Data Strategy
